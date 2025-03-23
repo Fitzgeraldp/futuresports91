@@ -1,0 +1,29 @@
+/* footer.css */
+
+.footer {
+    background-color: blue;
+    /* Blue background */
+    color: white;
+    /* White text */
+    text-align: center;
+    /* Center text */
+    padding: 15px 0;
+    /* Add some padding */
+    position: fixed;
+    /* Fix at the bottom */
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+}
+
+.footer a {
+    color: #ffcc00;
+    /* Yellow links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
